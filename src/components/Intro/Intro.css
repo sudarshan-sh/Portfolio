@@ -29,28 +29,95 @@
 }
 .i-name > :nth-child(3) {
   font-weight: 100;
-  font-size: 14px;
+  font-size: 18px;
   color: var(--gray);
   margin-top: 10px;
 }
+
 .i-button {
   width: 6rem;
   height: 2rem;
 }
 
 .i-icons {
-    margin-top: 3rem;
-    display: flex;
-    gap: 0rem;
-  }
-  .i-icons > * {
-    transform: scale(0.5);
-  }
-  .i-icons > *:hover {
-    cursor: pointer;
-  }
+  margin-top: 3rem;
+  display: flex;
+  gap: 0rem;
+}
+.i-icons > * {
+  /* transform every image to half of its size */
+  transform: scale(0.5);
+}
+.i-icons > *:hover {
+  cursor: pointer;
+}
 
-  /* right side styling */
+/* right side styling */
 .i-right {
   flex: 1;
+  position: relative;
+}
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+
+.i-right > :nth-child(1) {
+  transform: scale(0.69);
+  left: -15%;
+  top: -9%;
+}
+.i-right > :nth-child(2) {
+  top: -4.6rem;
+  transform: scale(0.67);
+  left: -3rem;
+}
+.i-right > :nth-child(3) {
+  /* transform: scale(1.4); */
+  /* left: 28%; */
+  left: 19%;
+}
+.charuImg {
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  width: 320px;
+  border: transparent;
+  height: 352px;
+  float: left;
+  /* background-image: linear-gradient(45deg, #08aeea, #2af958 100%); */
+  animation: morph 8s ease-in-out infinite;
+}
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30 60% 70% 40% / 50% 60% 30% 60%;
+    /* background-image: linear-gradient(45deg, #fa88ff, #2bd2ff 50%, #2bff88 90%); */
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+/* Glasses Emoji */
+/* .i-right > :nth-child(4) {
+  transform: scale(0.62);
+  top: -19%;
+  left: -24%;
+  border-radius: 50%;
+  padding: 0;
+} */
+
+/* blur */
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  filter: blur(212px);
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
 }
