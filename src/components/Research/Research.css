@@ -1,11 +1,12 @@
 .services{
     padding: 0 3rem 0 3rem;
     /* display: flex; */
-    height: 90vh;
-    margin-bottom: 8rem;
-    /* margin-top: 9rem; */
+    /* height: 90vh; */
+    height: 100%;
+    /* margin-bottom: 8rem;
+    margin-top: 9rem;
     margin-top: 4rem;
-    margin-bottom: 13rem;
+    margin-bottom: 13rem; */
 }
 
 .awesome{
@@ -14,10 +15,11 @@
 
 .cards{
     margin-top: 3rem;
+    font-size: 14px !important;
 }
 
 .about__subtitle__ul {
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
   }
   .about__subtitle__link {
     color: blue;

@@ -16,7 +16,7 @@ const About = () => {
 
       {/* right side */}
       <div className="cards">
-        <ul style={{ fontSize: "18px" }}>
+        <ul>
           {/* 1st */}
           <li>
             Anmol Goel, Charu Sharma, Ponnurangam Kumaraguru, "An Unsupervised,
@@ -178,10 +178,10 @@ const About = () => {
         </ul>
         <br />
         <div className="about__service">
-          <h2>Service</h2>
+          <h2 style={{ fontWeight: "600" }}>Service</h2>
           <ul className="about__subtitle__ul about__ul">
             <li>
-              <b> Proceedings Chair </b>
+              <b style={{ fontWeight: "600" }}> Proceedings Chair </b>
               at
               <a
                 href="https://cods-comad.in/index.php"
@@ -192,30 +192,31 @@ const About = () => {
               </a>
             </li>
             <li>
-              <b> Area Chair: </b>
               <p>
-                {" "}
+                <b style={{ fontWeight: "600" }}> Area Chair: </b>
                 ICLR 2022 Workshop on Geometrical and Topological Representation
-                Learning{" "}
+                Learning
+                <a
+                  href="https://gt-rl.github.io/"
+                  className="about__subtitle__link"
+                  target="__blank"
+                >
+                  GTRL
+                </a>
               </p>
-              <a
-                href="https://gt-rl.github.io/"
-                className="about__subtitle__link"
-                target="__blank"
-              >
-                GTRL
-              </a>
             </li>
             <li>
-              <b> Reviewer: </b>
               <p>
+                <b style={{ fontWeight: "600" }}> Reviewer: </b>
                 TKDE'20, NeurIPS'21, 22, WACV'22, 23, AAAI'22, 23, ICLR'22,
                 CVPR'22, ICML'22, TPAMI'22, ACML'21, 22
               </p>
             </li>
             <li>
-              <b> Sub-Reviewer: </b>
-              <p>NeurIPS'19, NeurIPS'20, EMNLP'20, AAAI'21, ICML'21</p>
+              <p>
+                <b style={{ fontWeight: "600" }}> Sub-Reviewer: </b>
+                NeurIPS'19, NeurIPS'20, EMNLP'20, AAAI'21, ICML'21
+              </p>
             </li>
           </ul>
         </div>
