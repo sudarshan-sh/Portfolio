@@ -5,8 +5,8 @@
     height: 100%;
     /* margin-bottom: 8rem;
     margin-top: 9rem;
-    margin-top: 4rem;
     margin-bottom: 13rem; */
+    margin-top: 6rem;
 }
 
 .awesome{
@@ -22,7 +22,8 @@
     /* margin-left: 1rem; */
   }
   .about__subtitle__link {
-    color: blue;
+    /* color: blue; */
+    color: #242D49;
     text-decoration: underline;
     margin-left: 0.35rem;
   }

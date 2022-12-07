@@ -32,6 +32,7 @@
   cursor: pointer;
   color: var(--orange);
   border: 1px solid var(--orange);
+  transition: all 0.3s;
 }
 
   

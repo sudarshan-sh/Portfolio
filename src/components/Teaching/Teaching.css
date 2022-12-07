@@ -1,0 +1,48 @@
+.teaching {
+  padding: 0 3rem 0 3rem;
+  /* display: flex; */
+  /* height: 90vh; */
+  height: 100%;
+  margin-top: 6rem;
+}
+.awesome {
+  text-align: center;
+}
+
+.teaching_data {
+  margin-top: 3rem;
+  font-size: 14px !important;
+  margin-left: 1rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.about__subtitle__ul {
+  /* margin-left: 1rem; */
+  padding-bottom: 10px;
+}
+.about__subtitle__ul > li {
+  padding-bottom: 10px;
+}
+
+.about__subtitle__link {
+  /* color: blue; */
+  color: #242d49;
+  text-decoration: underline;
+  margin-left: 0.35rem;
+}
+
+.about__service {
+  margin-left: 1rem;
+}
+
+.about__ul {
+  list-style-type: initial;
+}
+
+.about__head {
+  text-align: center;
+}

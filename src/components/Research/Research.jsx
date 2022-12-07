@@ -4,10 +4,10 @@ import { GiArchiveResearch } from "react-icons/gi";
 
 const About = () => {
   return (
-    <div className="services">
+    <div className="services" id="services">
       {/* left side */}
       <div className="awesome">
-        <span style={{ fontSize: "2rem" }}>
+        <span style={{ fontSize: "45pt" }}>
           Research <GiArchiveResearch style={{ fontSize: "1.5rem" }} />
         </span>
         {/* <button className="button s-button">Download CV</button> */}
