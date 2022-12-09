@@ -1,0 +1,31 @@
+.experience {
+  padding: 0 3rem 0 3rem;
+  /* display: flex; */
+  /* height: 90vh; */
+  height: 100%;
+  margin-top: 6rem;
+}
+.awesome {
+  text-align: center;
+}
+
+.experience_data {
+  margin-top: 3rem;
+  font-size: 14px !important;
+  margin-left: 1rem;
+}
+
+.exp__subtitle__ul {
+  /* margin-left: 1rem; */
+  padding-bottom: 10px;
+}
+.exp__subtitle__ul > li {
+  padding-bottom: 20px;
+}
+
+.course_list {
+  padding-top: 10px;
+}
+.course_list > li {
+  padding-bottom: 12px;
+}

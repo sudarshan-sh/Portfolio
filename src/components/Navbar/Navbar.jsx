@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import Toggle from '../Toggle/Toggle';
+import Toggle from "../Toggle/Toggle";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -28,12 +28,24 @@ const Navbar = () => {
                 Teaching
               </Link>
             </li>
-            <li>Experience</li>
-            <li>Others</li>
+            <li>
+              <Link to="experience" spy={true} smooth={true}>
+                Experience
+              </Link>
+            </li>
+            <li>
+              <Link to="others" spy={true} smooth={true}>
+                Others
+              </Link>
+            </li>
             {/* <li>Contact</li> */}
           </ul>
         </div>
-        <button className="button n-button">Contact</button>
+        <button className="button n-button">
+          <Link to="contact" spy={true} smooth={true}>
+          Contact
+          </Link>
+        </button>
       </div>
     </div>
   );

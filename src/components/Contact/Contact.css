@@ -1,0 +1,39 @@
+.contact {
+    padding: 0 3rem 0 3rem;
+    /* display: flex; */
+    /* height: 90vh; */
+    height: 100%;
+    margin-top: 6rem;
+  }
+  .awesome {
+    text-align: center;
+  }
+
+  .contact_data {
+    margin-top: 3rem;
+    font-size: 14px !important;
+    margin-left: 1rem;
+  }
+  .contact__subtitle h4{
+    font-size: 30pt;
+    font-weight: 100;
+    margin-bottom: 0px;
+  }
+  
+  .contact__subtitle__ul {
+    /* margin-left: 1rem; */
+  }
+  
+  .contact__subtitle__ul > li {
+    padding-bottom: 18px;
+  }
+
+  .footer{
+    text-align: center;
+    margin-top: 3rem;
+    /* padding-right: 5rem; */
+  }
+  .footer> p{
+    margin: 0;
+    display: initial;
+  }

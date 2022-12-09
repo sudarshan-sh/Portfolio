@@ -20,29 +20,23 @@ h4 {
   font-weight: 600;
 }
 
-.about__subtitle__ul {
+.teaching__subtitle__ul {
   /* margin-left: 1rem; */
   padding-bottom: 10px;
 }
-.about__subtitle__ul > li {
+.teaching__subtitle__ul > li {
   padding-bottom: 10px;
 }
 
-.about__subtitle__link {
-  /* color: blue; */
-  color: #242d49;
-  text-decoration: underline;
-  margin-left: 0.35rem;
-}
-
-.about__service {
-  margin-left: 1rem;
-}
-
-.about__ul {
-  list-style-type: initial;
-}
-
-.about__head {
-  text-align: center;
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #edd0ff;
+  filter: blur(212px);
+  z-index: -9;
+  top: -18%;
+  left: 56%;
+  filter: blur(72px);
 }

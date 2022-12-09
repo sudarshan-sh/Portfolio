@@ -15,9 +15,9 @@ const Teaching = () => {
 
       {/* right side */}
       <div className="teaching_data">
-        <span className="about__subtitle">
+        <span className="teaching__subtitle">
           <h4>Graduate level courses at IIIT Hyderabad:</h4>
-          <ol className="about__subtitle__ul">
+          <ol className="teaching__subtitle__ul">
             <li>
               Topics in Deep Learning (with a focus on Graph Representation
               Learning) (Spring 2022)
@@ -27,20 +27,20 @@ const Teaching = () => {
           </ol>
         </span>
         {/* <br /> */}
-        <span className="about__subtitle">
+        <span className="teaching__subtitle">
           <h4>3D Vision Summer School 2022 at IIIT Hyderabad:</h4>
-          <ol className="about__subtitle__ul">
+          <ol className="teaching__subtitle__ul">
             <li>Volumetric and Point Cloud Representation Learning</li>
             <li>3D Deep Learning using Graphs and Meshes</li>
           </ol>
         </span>
         {/* <br /> */}
-        <span className="about__subtitle">
+        <span className="teaching__subtitle">
           <h4>
             Machine Learning for Chemistry and Drug Design Course at IIIT
             Hyderabad:
           </h4>
-          <ul className="about__subtitle__ul">
+          <ul className="teaching__subtitle__ul">
             <li>Lecture on "Deep Learning for (Molecular) Graphs"</li>
           </ul>
         </span>
