@@ -8,7 +8,8 @@ const Navbar = () => {
     <div className="n-wrapper" id="Navbar">
       <div className="n-left">
         <div className="n-name">Charu Sharma</div>
-        <Toggle />
+        {/*+++++light & dark mode++++ */}
+        {/* <Toggle /> */}
       </div>
       <div className="n-right">
         <div className="n-list">
